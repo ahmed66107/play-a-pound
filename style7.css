@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(220, 218, 218);
+    text-align: center;
+    padding: 50;
+}
+#coining{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: #0063f8d9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+button:disabled{
+    background-color: rgb(206, 203, 203);
+    cursor: not-allowed;
+}
